@@ -1,5 +1,28 @@
 // Jogo do Numero Secreto
 
+let emojis = [
+  "😀",
+  "😄",
+  "😂",
+  "🤣",
+  "😅",
+  "😆",
+  "😉",
+  "😊",
+  "😇",
+  "🙂",
+  "🙃",
+  "😉",
+  "😌",
+  "😍",
+  "🥰",
+  "😘",
+  "😗",
+  "😙",
+  "😚",
+  "😋",
+];
+
 let listaDeNumerosSorteados = [];
 let numeroLimite = 120;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -65,4 +88,10 @@ function reiniciarJogo() {
   tentativas = 1;
   exibirMensagemInicial();
   document.getElementById("reiniciar").setAttribute("disabled", true);
+}
+
+// ver possivel implementação
+function dizerSentimento() {
+  resultado = parseInt(Math.random() * 10 + 1);
+  return emojis[resultado];
 }
