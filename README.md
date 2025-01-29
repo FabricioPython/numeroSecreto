@@ -1,4 +1,4 @@
-_Faça seu palpite e tente acertar o número: -)_
+_Faça seu palpite e tente acertar o número :)_
 
 [Site do Jogo NúmeroSecreto](https://numero-secreto-au0gqiqdr-fabricios-projects-4d71b1f2.vercel.app/)
 
